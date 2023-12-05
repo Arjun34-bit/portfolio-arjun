@@ -469,7 +469,7 @@ header.sticky {
   .contact__text {
     text-align: center;
   }
-  .contact__form button {
-    margin-right: 20px;
+  form {
+    text-align: center;
   }
 }
