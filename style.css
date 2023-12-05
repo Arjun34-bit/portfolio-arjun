@@ -80,7 +80,7 @@ section {
   height: 100vh;
   width: 100%;
   position: relative;
-  background: url(images/background.jpg);
+  background: url(images/new_background.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -92,7 +92,7 @@ section {
   font-size: var(--h1-font);
   font-weight: bold;
   line-height: 1.1;
-  letter-spacing: 2px;
+  /* letter-spacing: 0.5px; */
 }
 
 .home__content h4 {
@@ -209,7 +209,7 @@ header.sticky {
 }
 
 .box:hover {
-  transform: scale(1.05) translateX(-10px);
+  transform: scale(1.05) translateX(-2px);
   border: 1px solid var(--main-color);
 }
 
@@ -461,5 +461,15 @@ header.sticky {
   :root {
     --h1-font: 3.5rem;
     --h2-font: 2.5rem;
+  }
+
+  .about__content {
+    text-align: center;
+  }
+  .contact__text {
+    text-align: center;
+  }
+  .contact__form button {
+    margin-right: 20px;
   }
 }
