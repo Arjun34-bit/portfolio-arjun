@@ -85,7 +85,6 @@ section {
   background-position: center;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
 }
 .home__content h1 {
   margin: 30px 0;
@@ -463,6 +462,16 @@ header.sticky {
     --h2-font: 2.5rem;
   }
 
+  .about-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-img img {
+    margin: 10;
+    width: 70%;
+  }
   .about__content {
     text-align: center;
   }
@@ -471,5 +480,24 @@ header.sticky {
   }
   form {
     text-align: center;
+  }
+}
+
+@media (max-width: 505px) {
+  .home {
+    background: url(images/new_background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+  }
+  .about-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .about-img img {
+    margin: 10px;
+    width: 60%;
   }
 }
